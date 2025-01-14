@@ -4,23 +4,23 @@ import React from "react";
 const menu = [
   {
     title: "Home",
-    href: "#",
+    href: "/",
   },
   {
     title: "Products",
-    href: "#",
+    href: "/products",
   },
   {
     title: "Components",
-    href: "#",
+    href: "/components",
   },
   {
     title: "Pricing",
-    href: "#",
+    href: "/pricing",
   },
   {
     title: "Blog",
-    href: "#",
+    href: "/blog",
   },
 ];
 
