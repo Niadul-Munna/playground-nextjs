@@ -1,12 +1,18 @@
-import React from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 
 const Components = () => {
+  const [users, setUsers] = useState([]);
+
+  fetch("https://jsonplaceholder.typicode.com/todos/user")
+    .then((response) => response.json())
+    .then(setUsers);
+
   return (
     <div className="flex flex-col items-center justify-center">
-      <h1 className="text-6xl font-bold">Components</h1>
-      <p className="mt-4 text-2xl">
-        This page is a collection of components that can be used in the app
-      </p>
+      {users.map((user, inx) => (
+        <div key={inx}>{user}</div>
+      ))}
     </div>
   );
 };
