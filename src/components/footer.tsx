@@ -1,13 +1,43 @@
-/*************  ✨ Codeium Command ⭐  *************/
 export function Footer() {
   return (
-    <footer className="py-12 bg-primary-foreground text-primary">
-      <div className="container mx-auto px-4">
-        <p className="text-center">
-          Copyright &copy; {new Date().getFullYear()} All rights reserved.
-        </p>
+    <footer className="bg-accent text-background p-12 text-black">
+      <div className="container mx-auto p-4">
+        <div className="flex flex-col md:flex-row justify-between items-center">
+          <p className="text-center md:text-left">
+            Copyright &copy; {new Date().getFullYear()}{" "}
+            <a
+              href="https://github.com/shadcn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:underline"
+            >
+              Shadcn
+            </a>
+          </p>
+          <ul className="flex space-x-6 mt-4 md:mt-0">
+            <li>
+              <a
+                href="https://twitter.com/shadcn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                Twitter
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/shadcn"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:underline"
+              >
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );
 }
-/******  4759ac46-a18e-41fa-8d01-8bbfd8437e3b  *******/
