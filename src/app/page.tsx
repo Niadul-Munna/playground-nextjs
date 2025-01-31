@@ -8,6 +8,7 @@ export default function Home() {
     <div>
       <HeroSection />
       <Docks />
+      <LikeButton />
       <FetchPosts />
     </div>
   );
