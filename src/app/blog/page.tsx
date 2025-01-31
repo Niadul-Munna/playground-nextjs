@@ -12,10 +12,10 @@ const Blog = () => {
         date="2022-07-01"
         content={
           <p>
-            This is my first blog post. I'm so excited to finally have a blog.
-            I've been wanting to start one for a while now, but I just couldn't
-            seem to get started. But now that I have, I'm excited to share my
-            thoughts and experiences with all of you.
+            This is my first blog post. I&apos;m so excited to finally have a
+            blog. I've been wanting to start one for a while now, but I just
+            couldn't seem to get started. But now that I have, I'm excited to
+            share my thoughts and experiences with all of you.
           </p>
         }
       />
