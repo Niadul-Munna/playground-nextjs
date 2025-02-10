@@ -1,5 +1,6 @@
 import Link from "next/link";
 import React from "react";
+import GitButton from "./ui/git-button";
 
 const menu = [
   {
@@ -36,6 +37,7 @@ const Navbar = () => {
           {item.title}
         </Link>
       ))}
+      <GitButton />
     </div>
   );
 };
