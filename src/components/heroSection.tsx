@@ -1,13 +1,14 @@
 import React from "react";
 import GetStartedButton from "./ui/get-started-btn";
 import Tooltip from "./ui/tool-tip";
+import BookCard from "./book-card";
 
 const HeroSection = () => {
   return (
     <div>
       <section className="bg-[#0A2540] h-screen">
         <div className="text-center  flex flex-col items-center justify-center ">
-          <div className="mt-4">
+          <div className="mt-4 mb-10">
             <h1 className="text-6xl text-white font-bold">
               Welcome to my playground
             </h1>
@@ -19,6 +20,7 @@ const HeroSection = () => {
               <Tooltip />
             </div>
           </div>
+          <BookCard />
         </div>
       </section>
     </div>
