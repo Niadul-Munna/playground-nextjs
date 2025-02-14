@@ -2,6 +2,7 @@ import React from "react";
 import GetStartedButton from "./ui/get-started-btn";
 import Tooltip from "./ui/tool-tip";
 import BookCard from "./book-card";
+import Loader from "./new-loader";
 
 const HeroSection = () => {
   return (
@@ -18,6 +19,7 @@ const HeroSection = () => {
             <div className="flex items-center justify-center gap-4 ">
               <GetStartedButton />
               <Tooltip />
+              <Loader />
             </div>
           </div>
           <BookCard />
