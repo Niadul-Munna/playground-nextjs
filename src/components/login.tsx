@@ -29,7 +29,7 @@ const Login = () => {
           placeholder="Password"
         />
         <button
-          className="border cursor-pointer bg-blue-400 px-4 py-1"
+          className="border cursor-pointer bg-blue-600 rounded-2xl  px-4 py-1"
           onClick={handleSubmit}
         >
           Login
