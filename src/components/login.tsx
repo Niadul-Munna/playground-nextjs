@@ -19,14 +19,14 @@ const Login = () => {
           onChange={(e) => setUsername(e.target.value)}
           className="border p-2"
           type="text"
-          placeholder="Username"
+          placeholder="Enter Username"
         />
         <input
           value={password}
           onChange={(e) => setPassword(e.target.value)}
           className="border p-2"
           type="password"
-          placeholder="Password"
+          placeholder="EnterPassword"
         />
         <button
           className="border cursor-pointer bg-blue-600 rounded-2xl  px-4 py-1"
