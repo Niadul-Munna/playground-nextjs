@@ -11,7 +11,7 @@ export function Footer() {
               rel="noopener noreferrer"
               className="hover:underline"
             >
-              Shadcn
+              Niadul PlayGround
             </a>
           </p>
           <ul className="flex space-x-6 mt-4 md:mt-0">
@@ -22,7 +22,7 @@ export function Footer() {
                 rel="noopener noreferrer"
                 className="hover:underline"
               >
-                Twitter
+                X
               </a>
             </li>
             <li>
