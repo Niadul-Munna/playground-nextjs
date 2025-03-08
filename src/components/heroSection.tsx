@@ -13,7 +13,7 @@ const HeroSection = () => {
             <h1 className="text-6xl text-white font-bold">
               Welcome to my playground
             </h1>
-            <p className="text-2xl text-white mt-4 mb-4">
+            <p className="text-2xl bg-gradient-to-l from-indigo-500 via-purple-500 to-pink-500 text-white mt-4 mb-4">
               A place where i experiment with new technologies and ideas{" "}
             </p>
             <div className="flex items-center justify-center gap-4 ">
