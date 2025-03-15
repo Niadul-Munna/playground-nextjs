@@ -15,6 +15,7 @@ export default function Home() {
       <FetchPosts />
       <Login />
       <Profile />
+      <Docks />
     </div>
   );
 }
