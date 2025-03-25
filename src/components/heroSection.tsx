@@ -22,7 +22,9 @@ const HeroSection = () => {
               <Loader />
             </div>
           </div>
-          <BookCard />
+          <div>
+            <BookCard />
+          </div>
         </div>
       </section>
     </div>
