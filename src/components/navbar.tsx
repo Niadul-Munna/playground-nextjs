@@ -27,7 +27,7 @@ const menu = [
 
 const Navbar = () => {
   return (
-    <div className="flex items-center gap-4 p-5 bg-neutral-300 text-center  justify-center">
+    <div className="flex items-center gap-4 p-2 bg-neutral-300 text-center  justify-center">
       {menu.map((item, idx) => (
         <Link
           className="hover:text-[18px] duration-300 hover: px-4 py-2 rounded "
@@ -37,7 +37,9 @@ const Navbar = () => {
           {item.title}
         </Link>
       ))}
-      <GitButton />
+      <span className="flex flex-1 justify-end">
+        <GitButton />
+      </span>
     </div>
   );
 };
