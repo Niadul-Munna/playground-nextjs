@@ -3,7 +3,7 @@ import React from "react";
 
 const Componentspage = () => {
   return (
-    <div className="w-full h-screen bg-amber-200">
+    <div className="w-full h-screen ">
       <Reactmemo />
     </div>
   );
