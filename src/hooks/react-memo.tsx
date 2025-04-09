@@ -16,7 +16,9 @@ export default function Reactmemo() {
     <div>
       <MyComp name="Munna" />
       <div>counting:{count}</div>
-      <button onClick={handleCount}>Add+</button>
+      <button className="bg-blue-400 p-2" onClick={handleCount}>
+        Add+
+      </button>
     </div>
   );
 }
