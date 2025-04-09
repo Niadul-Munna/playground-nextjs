@@ -13,9 +13,10 @@ const Blog = () => {
         content={
           <p>
             This is my first blog post. I&apos;m so excited to finally have a
-            blog. I've been wanting to start one for a while now, but I just
-            couldn't seem to get started. But now that I have, I'm excited to
-            share my thoughts and experiences with all of you.
+            blog. I&apos;ve been wanting to start one for a while now, but I
+            just couldn&apos;t seem to get started. But now that I have,
+            I&apos;m excited to share my thoughts and experiences with all of
+            you.
           </p>
         }
       />
@@ -24,8 +25,8 @@ const Blog = () => {
         date="2022-07-02"
         content={
           <p>
-            This is my second blog post. I'm still getting the hang of this
-            whole blogging thing, but I'm enjoying it so far. I hope you're
+            This is my second blog post. I&apos;m still getting the hang of this
+            whole blogging thing, but I'm enjoying it so far. I hope you&apos;re
             enjoying it too.
           </p>
         }
