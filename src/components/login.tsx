@@ -11,7 +11,7 @@ const Login = () => {
     setUser({ username, password });
   };
   return (
-    <div className="borde border-2 p-5 h-96 w-96 m-10 ">
+    <div className="border-2 p-5 h-96 w-96 m-10 ">
       <h1 className="text-2xl mb-8 font-semibold text-center">Login</h1>
       <div className="flex flex-col gap-4">
         <input
