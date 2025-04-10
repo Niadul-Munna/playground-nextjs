@@ -3,13 +3,6 @@
 import api from "@/lib/api/axios";
 import { useEffect, useState } from "react";
 
-type Post = {
-  userId: number;
-  id: number;
-  title: string;
-  body: string;
-};
-
 export default function Page() {
   const [isLoading, setIsLoading] = useState(false);
 
