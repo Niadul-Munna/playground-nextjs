@@ -1,3 +1,4 @@
+import { Counter } from "@/components/counter";
 import React from "react";
 
 const Pricing = () => {
@@ -39,6 +40,7 @@ const Pricing = () => {
           </ul>
         </div>
       </div>
+      <Counter />
     </div>
   );
 };
