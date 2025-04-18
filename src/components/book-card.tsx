@@ -6,7 +6,7 @@ const BookCard = () => {
   return (
     <StyledWrapper>
       <div className="book">
-        <p>Hello</p>
+        <p>Hello Sir</p>
         <div className="cover">
           <p>Hover Me</p>
         </div>
