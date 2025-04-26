@@ -8,6 +8,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import Image from "next/image";
 
 export function Form() {
   return (
@@ -35,7 +36,7 @@ export function Form() {
             <SelectContent>
               <SelectGroup>
                 <SelectItem value="1">
-                  <img
+                  <Image
                     className="size-5 rounded"
                     src="https://blocks.so/avatar-01.png"
                     alt="Ephraim Duncan"
@@ -45,7 +46,7 @@ export function Form() {
                   <span className="truncate">Ephraim Duncan</span>
                 </SelectItem>
                 <SelectItem value="2">
-                  <img
+                  <Image
                     className="size-5 rounded"
                     src="https://blocks.so/avatar-03.png"
                     alt="Lucas Smith"
@@ -55,7 +56,7 @@ export function Form() {
                   <span className="truncate">Lucas Smith</span>
                 </SelectItem>
                 <SelectItem value="3">
-                  <img
+                  <Image
                     className="size-5 rounded"
                     src="https://blocks.so/avatar-02.jpg"
                     alt="Timur Ercan"
