@@ -26,8 +26,8 @@ const Blog = () => {
         content={
           <p>
             This is my second blog post. I&apos;m still getting the hang of this
-            whole blogging thing, but I'm enjoying it so far. I hope you&apos;re
-            enjoying it too.
+            whole blogging thing, but I&apos;m enjoying it so far. I hope
+            you&apos;re enjoying it too.
           </p>
         }
       />
